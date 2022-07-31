@@ -1,0 +1,13 @@
+.compact-sutra .sutra-number {
+  font-weight: bolder;
+  font-size: 2.5em;
+}
+.compact-sutra h2 {
+  margin-bottom: 0;
+}
+.compact-sutra h2.sanskrit-latin {
+  margin-top: 5px;
+}
+.compact-sutra .sutra-core-info {
+  margin-bottom: 20px;
+}
