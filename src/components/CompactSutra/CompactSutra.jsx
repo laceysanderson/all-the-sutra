@@ -1,31 +1,33 @@
 import React from 'react';
 import './CompactSutra.css';
 
-const CompactSutra = (props) => (
+export default function CompactSutra(sutra) {
+  return (
     <div className="compact-sutra list-group-item container text-center">
       <div className="sutra-core-info row">
-        <div className="col-3">
+        <div className="col-3 left-side">
           <h2 className="sutra-number">
-              1.1
+              {sutra.number}
           </h2>
         </div>
-        <div className="col">
+        <div className="col right-side">
           <h2 className="sanskrit-devanagari">
-            अथ योगानुशासनम्
+            {sutra.devanagari}
           </h2>
           <h2 className="sanskrit-latin">
-            atha yogānuśāsanam
+            {sutra.latin}
           </h2>
         </div>
       </div>
-      <div className="row">
-        <div className="core-english-translation">
-          <div className="text">
-            Now, the teachings of yoga.
-          </div>
+      <div className="core-english-translation row">
+        <div className="col-3 left-side info">
+          Selected Core
+          <br />English Translation
+        </div>
+        <div className="col right-side text">
+          Now, the teachings of yoga.
         </div>
       </div>
     </div>
-)
-
-export default CompactSutra
+  )
+}
