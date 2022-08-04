@@ -1,5 +1,6 @@
 {
   "name": "all-the-sutra",
+  "homepage": "https://laceysanderson.github.io/all-the-sutra"
   "version": "0.1.0",
   "private": true,
   "dependencies": {
