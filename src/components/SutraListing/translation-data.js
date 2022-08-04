@@ -1,4 +1,4 @@
-export default {
+const data = {
   "author": "Swami Hariharananda Aranya",
   "citation": "Swāmi Hariharānanda Āraṇya S-Y (1960) Appendix F. In: Swāmi Hariharānanda Āraṇya S-Y, Mukerji PN (Trans.), Yoga philosophy of Patañjali (1st ed., pp. 457–468). University of Calcutta.",
   "url": "https://ia801604.us.archive.org/6/items/in.ernet.dli.2015.149330/2015.149330.Yoga-Philosophy-Of-Patanjali-Ed-1st.pdf",
@@ -20,4 +20,5 @@ export default {
       }
     }
   }
-}
+};
+export default data;

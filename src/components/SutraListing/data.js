@@ -1,4 +1,4 @@
-export default [
+const data = [
   {
     "number": "1",
     "devanagari": "समधि पदह्",
@@ -61,4 +61,5 @@ export default [
       }
     ]
   }
-]
+];
+export default data;
