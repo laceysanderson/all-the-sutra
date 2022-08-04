@@ -7,7 +7,7 @@ on:
     branches: [ main ]
 
 jobs:
-  build_test:
+  deploy:
     runs-on: ubuntu-latest
 
     strategy:
@@ -20,6 +20,9 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
+      - name: NPM Install
+        run: |
+          npm install
       - name: Build App
         run: |
           npm run build
