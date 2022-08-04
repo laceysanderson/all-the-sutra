@@ -21,11 +21,10 @@ export default function CompactSutra(sutra) {
       </div>
       <div className="core-english-translation row">
         <div className="col-3 left-side info">
-          Selected Core
-          <br />English Translation
+          {sutra.author}
         </div>
         <div className="col right-side text">
-          Now, the teachings of yoga.
+          {sutra.translation}
         </div>
       </div>
     </div>
