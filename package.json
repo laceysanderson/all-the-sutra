@@ -17,7 +17,7 @@
   },
   "scripts": {
     "yaml-convert": "node ./src/scripts/yaml-convert.js",
-    "start": "npm run yaml-convert -- watch & react-scripts start",
+    "start": "npm run yaml-convert && react-scripts start",
     "build": "npm run yaml-convert && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

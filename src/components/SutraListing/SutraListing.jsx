@@ -1,7 +1,7 @@
 import React from 'react';
 import './SutraListing.css';
 import CompactSutra from '../CompactSutra/CompactSutra';
-import book from './data';
+import book from '../../data/yoga-sutra-devanagari.js';
 import translationDetails from './translation-data.js';
 
 export default function SutraListing() {
@@ -32,9 +32,19 @@ export default function SutraListing() {
 }
 
 function getChapterTitleTranslation(chapterNumber) {
-  return translationDetails.translation[chapterNumber]["chapter-title"];
+  try {
+    return translationDetails.translation[chapterNumber]["chapter-title"];
+  }
+  catch (e) {
+    return "";
+  }
 }
 
 function getSutraTranslation(chapterNumber, sutraNumber) {
-  return translationDetails.translation[chapterNumber].sutra[sutraNumber];
+  try {
+    return translationDetails.translation[chapterNumber].sutra[sutraNumber];
+  }
+  catch (e) {
+    return "";
+  }
 }
