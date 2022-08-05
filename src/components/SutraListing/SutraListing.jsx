@@ -2,7 +2,7 @@ import React from 'react';
 import './SutraListing.css';
 import CompactSutra from '../CompactSutra/CompactSutra';
 import book from '../../data/yoga-sutra-devanagari.js';
-import translationDetails from './translation-data.js';
+import translationDetails from '../../data/translation-SwamiHariharanandaAranya.js';
 
 export default function SutraListing() {
   return (
