@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/all-the-sutra/static/css/main.a6e0533c.css",
-    "main.js": "/all-the-sutra/static/js/main.2663d4f5.js",
+    "main.js": "/all-the-sutra/static/js/main.d525a267.js",
     "static/js/787.ec36fa3c.chunk.js": "/all-the-sutra/static/js/787.ec36fa3c.chunk.js",
     "index.html": "/all-the-sutra/index.html",
     "main.a6e0533c.css.map": "/all-the-sutra/static/css/main.a6e0533c.css.map",
-    "main.2663d4f5.js.map": "/all-the-sutra/static/js/main.2663d4f5.js.map",
+    "main.d525a267.js.map": "/all-the-sutra/static/js/main.d525a267.js.map",
     "787.ec36fa3c.chunk.js.map": "/all-the-sutra/static/js/787.ec36fa3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6e0533c.css",
-    "static/js/main.2663d4f5.js"
+    "static/js/main.d525a267.js"
   ]
 }
