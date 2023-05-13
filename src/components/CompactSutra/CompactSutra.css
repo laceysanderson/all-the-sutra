@@ -26,3 +26,7 @@
   margin-bottom: 20px;
   text-align: left;
 }
+
+.compact-sutra.list-group-item {
+  border-color: var(--border);
+}
