@@ -1,6 +1,6 @@
 .header {
   width: 100%;
   text-align: center;
-  background-color: white;
+  background-color: var(--background-header);
   padding: 20px 0;
 }

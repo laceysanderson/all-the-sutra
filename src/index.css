@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --light: #e4e0dd;
+  --dark: #211D1A;
+  --background-header: white;
+  --background-main: #f0ede9;
+  --text-primary: #211D1A;
+  --text-secondary: #776363;
+  --border: rgba(0,0,0,0.125);
+  --author: rgba(0,0,0,0.5);
+}
+[data-theme='dark'] {
+  --background-header: black;
+  --background-main: #131210;
+  --text-primary: #e4e0dd;
+  --text-secondary: #9b8787;
+  --border: rgba(100,100,100,0.125);
+  --author: rgba(100,100,100,0.5);
+}

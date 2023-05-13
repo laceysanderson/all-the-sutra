@@ -1,9 +1,9 @@
 .chapter {
   margin-top: 15px;
-  border-bottom: 1px solid rgba(0,0,0,0.125);
+  border-bottom: 1px solid var(--border);
 }
 .chapter-wrapper {
-  border-bottom: 2px solid rgba(0,0,0,0.125);
+  border-bottom: 2px solid var(--border);
   margin-bottom: 15px;
 }
 .chapter h2 {

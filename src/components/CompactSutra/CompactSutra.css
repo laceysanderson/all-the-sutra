@@ -15,7 +15,7 @@
 }
 .compact-sutra .core-english-translation .info {
   font-size: 0.8em;
-  color: rgba(0,0,0,0.5);
+  color: var(--author);
 }
 .compact-sutra .left-side {
   margin-bottom: 20px;
